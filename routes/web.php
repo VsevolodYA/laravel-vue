@@ -14,7 +14,4 @@
 Route::get('/', 'AlertController@index');
 Route::post('/email', 'EmailController@sendMail');
 
-//Route::post('/login', 'AuthenticateController@authenticate');
-//Route::post('/register', 'AuthenticateController@registration');
-//
 Route::Auth();
